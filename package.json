@@ -1,0 +1,37 @@
+{
+  "name": "react-inline-forms",
+  "version": "0.0.1",
+  "description": "A React component for inline editing",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "js",
+    "form",
+    "inline",
+    "editing"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Virolea/react-inline-forms"
+  },
+  "author": "Vincent Rolea",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.2.0",
+    "webpack": "^3.11.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.1"
+  }
+}
