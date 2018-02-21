@@ -35,6 +35,7 @@ class RISelect extends Component {
             onChange={this.handleSubmit}
             className={this.props.classes}
             value={this.props.value}
+            name={this.props.name}
           >
             {this.props.collection.map((item) => (
               <option value={item.value}>{item.name}</option>

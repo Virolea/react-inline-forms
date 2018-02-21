@@ -38,6 +38,7 @@ class RIInput extends Component {
             className={this.props.classes}
             placeholder={this.props.placdeholder}
             value={this.props.value}
+            name={this.props.name}
             onChange={this.props.onInputChange}
           /> :
           this.props.children
